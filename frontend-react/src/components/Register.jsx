@@ -7,7 +7,7 @@ export default function Register() {
   const enteredPassword = useRef();
   
   const [errors, setErrors] = useState({});
-const [success, setSuccess] = useState(false);
+  const [success, setSuccess] = useState(false);
   
 
   const HandleRegistration = async (e) => {
